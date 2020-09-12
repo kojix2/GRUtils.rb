@@ -5,6 +5,8 @@ module GR
     class Legends
       attr_accessor :size, :cursors
       def initialize; end
+
+      def draw; end
     end
   end
 end

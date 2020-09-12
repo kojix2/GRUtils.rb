@@ -5,6 +5,8 @@ module GR
     class Colorbars
       attr_accessor :range, :tick, :scale, :margin, :colors
       def initialize; end
+
+      def draw; end
     end
   end
 end

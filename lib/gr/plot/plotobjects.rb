@@ -9,6 +9,8 @@ module GR
     class Plotobjects
       attr_accessor :viewport, :axes, :geoms, :legend, :colorbar, :attributes
       def initialize; end
+
+      def draw; end
     end
   end
 end

@@ -5,6 +5,8 @@ module GR
     class Figure
       attr_accessor :workstation, :plots
       def initialize; end
+
+      def draw; end
     end
   end
 end

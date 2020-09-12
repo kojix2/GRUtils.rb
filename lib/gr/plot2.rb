@@ -1,3 +1,4 @@
+require 'numo/narray'
 require 'gr'
 
 require_relative 'plot/axes'
