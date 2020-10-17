@@ -6,11 +6,20 @@ module GR
       attr_accessor :outer, :inner
     end
 
-    class Plotobjects
+    class Plotobject
       attr_accessor :viewport, :axes, :geoms, :legend, :colorbar, :attributes
       def initialize; end
 
+      def makeplot!; end
+
+      def plotmargins; end
+
+      # ?
+      def fillbackground; end
+
       def draw; end
+
+      def drawable; end
     end
   end
 end
