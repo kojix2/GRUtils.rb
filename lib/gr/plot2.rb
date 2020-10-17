@@ -4,14 +4,14 @@ require 'numo/narray'
 require 'gr'
 
 require_relative 'plot/axes'
-require_relative 'plot/colorbars'
+require_relative 'plot/colorbar'
 require_relative 'plot/figure'
-require_relative 'plot/geometries'
-require_relative 'plot/legends'
-require_relative 'plot/plotobjects'
+require_relative 'plot/geometry'
+require_relative 'plot/legend'
+require_relative 'plot/plotobject'
 require_relative 'plot/version'
 
-require_relative 'colors'
+require_relative 'plot/colors'
 
 module GR
   class Plot

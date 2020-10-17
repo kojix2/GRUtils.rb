@@ -2,7 +2,7 @@
 
 module GR
   class Plot
-    class Colorbars
+    class Colorbar
       attr_accessor :range, :tick, :scale, :margin, :colors
       def initialize; end
 
