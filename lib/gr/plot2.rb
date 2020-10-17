@@ -10,3 +10,10 @@ require_relative 'plot/geometries'
 require_relative 'plot/legends'
 require_relative 'plot/plotobjects'
 require_relative 'plot/version'
+
+require_relative 'colors'
+
+module GR
+  class Plot
+  end
+end
