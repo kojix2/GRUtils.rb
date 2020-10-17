@@ -4,7 +4,14 @@ module GR
   class Plot
     class Axes
       attr_accessor :kind, :ranges, :tickdata, :ticklabels, :perspective, :camera, :options
-      def initialize; end
+      def initialize(kind)
+        case kind
+        when :axes2d
+        when :axes3d
+        when :polar
+        else # not defined
+        end
+      end
 
       # Calculation of data ranges
       def minmax; end
@@ -12,6 +19,8 @@ module GR
       def extrema64; end
 
       def fix_minmax; end
+
+      # set_limites
 
       def adjustranges!; end
 
