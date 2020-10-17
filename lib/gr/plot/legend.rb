@@ -2,11 +2,15 @@
 
 module GR
   class Plot
-    class Legends
+    class Legend
       attr_accessor :size, :cursors
       def initialize; end
 
+      def legend_box; end
+
       def draw; end
+
+      def guide; end
     end
   end
 end
