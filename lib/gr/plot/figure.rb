@@ -6,6 +6,10 @@ module GR
       attr_accessor :workstation, :plots
       def initialize; end
 
+      def subplot!; end
+
+      def replaceplot!; end
+
       def draw; end
     end
   end
